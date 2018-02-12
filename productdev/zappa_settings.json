@@ -1,0 +1,11 @@
+{
+    "staging": {
+        "django_settings": "productdev.settings",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "productdev",
+        "runtime": "python2.7",
+        "s3_bucket": "hmpr-proddev",
+        "exclude" : ["_sqlite.so"]
+    }
+}
