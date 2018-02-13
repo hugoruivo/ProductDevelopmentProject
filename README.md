@@ -4,7 +4,7 @@ Install the requirements as Virtualenv in Python. The solution is using Python 2
 
 ## Data Solution
 
-The implementation done uses only two Database tables which models can be found in the productdev/api/models.py file.
+The implementation done uses only two Database tables which models can be found in the `productdev/api/models.py` file.
 
 The ER representation is as follow:
 
@@ -17,7 +17,7 @@ Will have the insurance data, will store the names, ages, zip codes, etc... for 
 The data will be saved as JSON in the database.
 
 Sample Data:
-
+```javascript
 {
     "firstname": "John",
     "lastname": "Doe",
@@ -26,6 +26,7 @@ Sample Data:
     "prize amount": 250000,
     "validation limit": "2020-01-31"
 }
+```
 
 ### Insurancetype
 
@@ -41,6 +42,7 @@ Where "field_type" is one of the following:
 
 Sample Data:
 
+```javascript
 {
     "firstname": "text",
     "lastname": "text",
@@ -49,6 +51,7 @@ Sample Data:
     "prize amount": "number",
     "validation limit": "date"
 }
+```
 
 ## Backend Solution
 
